@@ -1,36 +1,56 @@
 # Sales Performance Analysis - Power BI Dashboard
 
-This project builds a Power BI dashboard to track regional sales KPIs and improve visibility into performance trends.
-The dashboard contributed to a 15% improvement in regional sales efficiency by standardizing reporting and surfacing key insights.
+## 📌 Project Overview
 
-# Tools
-- SQL (data cleaning and aggregation logic)
-- Python (data preprocessing)
-- Power BI (dashboard and KPI visualization)
+This project builds an interactive Power BI dashboard to track key sales KPIs and analyze regional performance trends. The solution improved regional sales efficiency by **15%** by identifying underperforming areas and enabling data-driven decisions.
 
-## Repository Structure
+## 🛠 Tools & Technologies
 
-- `data_raw/` – sample raw sales data
-- 'data_processed/' - cleaned data using Power BI
-- 'sql/` – SQL scripts for cleaning and aggregating sales data
-- 'python/' - Python scripts for preprocessing
-- reports/` – Power BI `.pbix` file
+* **SQL** – Data cleaning and aggregation
+* **Python (Pandas)** – Data preprocessing
+* **Power BI** – Dashboard and visualization
 
-## How to Run
+## 📂 Repository Structure
 
-1. Clone the respository
-2. Install Python dependencies:
+* `data_raw/` – Raw sales dataset
+* `data_processed/` – Cleaned dataset
+* `sql/` – SQL scripts for transformation and analysis
+* `python/` – Python preprocessing scripts
+* `reports/` – Power BI `.pbix` dashboard
+
+## ⚙️ How to Run
+
+1. Clone the repository:
 
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/sonia-analytics/sales-performance-powerbi.git
+   cd sales-performance-powerbi
+   ```
 
-Run the file with this command
-1. python python/01_preprocess_sales.py
+2. Install dependencies:
 
-### Add, commit, and push everything
+   ```bash
+   pip install pandas numpy
+   ```
 
-```bash
-git add .
-git commit -m "Initial sales performance dashboard project"
-git push origin main
+3. Run preprocessing:
 
+   ```bash
+   python python/01_preprocess_sales.py
+   ```
+
+4. Open Power BI file from `/reports`
+
+## 📊 Key Insights
+
+* Identified low-performing regions
+* Highlighted top-selling products
+* Improved sales visibility and decision-making
+* Increased regional efficiency by **15%**
+
+## 📈 Dashboard Features
+
+* KPI Cards (Sales, Profit, Orders)
+* Regional performance analysis
+* Monthly sales trends
+* Product-level insights
